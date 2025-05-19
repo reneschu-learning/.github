@@ -1,0 +1,11 @@
+name: Template Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  some_job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello from Template"
+        name: Say hello
